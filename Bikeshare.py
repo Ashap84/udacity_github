@@ -122,7 +122,7 @@ def trip_duration_stats(df):
     print("Total trip duration is :  "+str(total_travel_time))
 
     # TO DO: display mean travel time
-    mean_travel_time=df['Trip Duration'].mean()
+    travel_time_mean=df['Trip Duration'].mean()
     print("Average trip duration is : " +str(mean_travel_time))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -158,7 +158,7 @@ def user_stats(df,city):
     	print("Birth Year is not given for this city")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('$'*60)
 
 def display_raw_data(df):
 	'''Function to display the raw data'''
