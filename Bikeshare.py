@@ -161,7 +161,7 @@ def user_stats(df,city):
     print('-'*40)
 
 def display_raw_data(df):
-	'''Display the raw data if user wants to'''
+	'''Function to display the raw data'''
 
 	print(df.head())
 	count= 0
