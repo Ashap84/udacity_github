@@ -158,7 +158,7 @@ def user_stats(df,city):
     	print("Birth Year is not given for this city")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('$'*60)
 
 def display_raw_data(df):
 	'''Display the raw data if user wants to'''
