@@ -15,7 +15,7 @@ DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'thursday','friday', 'satur
 def get_filters():
 
 	print("Hello! Lets explore some US Bikeshare data!!")
-	# To get input for city name
+	# Function to get input for city name
 	city_name = ' '
 	while city_name.lower() not in CITY_DATA:
 		city_name=input("\nPlease enter the city name to analyse data-Chicago, New york city, Washington\n")
@@ -45,7 +45,7 @@ def get_filters():
 
 def load_data(city, month, day):
     
-    # load data file into a dataframe
+    # Function to load data file into a dataframe
     df = pd.read_csv(city)
 
     # convert the Start Time column to datetime
