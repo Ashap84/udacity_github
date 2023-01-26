@@ -71,7 +71,7 @@ def load_data(city, month, day):
 
     return df
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    '''Displays statistics on the most frequent times of travel'''
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -174,6 +174,7 @@ def display_raw_data(df):
 			break
 
 def main():
+    # main function
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
