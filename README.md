@@ -16,3 +16,6 @@ projectdetails.docx
 
 ### Credits
 https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+https://www.howtogeek.com/777899/how-to-stash-changes-in-git/
+
