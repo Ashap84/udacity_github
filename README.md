@@ -4,10 +4,13 @@
 1/28/2023
 
 ### Project Title
-Udacity_Git_project
+Udacity_Git_project 
 
 ### Description
+
 This project is all about the use of git commands and github-Master branch
+Make improvements in the doc strings in Bikeshare.py file
+ 
 
 ### Files used
 Bikeshare.py
